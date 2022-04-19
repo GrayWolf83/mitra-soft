@@ -1,5 +1,13 @@
+import { Route, Switch, Redirect } from 'react-router-dom'
+import Main from './layouts/Main'
+
 function App() {
-	return <h1>App</h1>
+	return (
+		<Switch>
+			<Route path='/' component={Main} />
+			<Redirect to='/' />
+		</Switch>
+	)
 }
 
 export default App
