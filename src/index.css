@@ -13,3 +13,9 @@ a {
 .offcanvas-start {
   width: 250px;
 }
+
+.loader {
+  width: 100%;
+  margin-top: 40vh;
+  text-align: center;
+}
