@@ -22,7 +22,7 @@ const NavbarMenu = ({ show, onHide }) => {
 					className='text-success fs-5 mt-2'
 					onClick={onHide}>
 					<i className='bi bi-images me-2' />
-					Галлерея
+					Галерея
 				</NavLink>
 				<br />
 				<NavLink
