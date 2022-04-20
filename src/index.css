@@ -51,3 +51,7 @@ a {
 .gallary-item-link.active {
   transform: scale(1);
 }
+
+.text-justify {
+  text-align: justify;
+}
