@@ -40,6 +40,6 @@ const photos = (state = initialState, { type, payload }) => {
 export const getPhotosList = () => (state) => state.photos.entities
 export const getLoadingStatus = () => (state) => state.photos.isLoading
 export const getPhotoById = (id) => (state) =>
-	state.photos.entities.find((item) => item.id === id)
+	state.photos.entities.find((item) => item.id.toString() === id.toString())
 
 export default photos
