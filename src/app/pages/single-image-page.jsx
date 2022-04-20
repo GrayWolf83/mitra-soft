@@ -3,6 +3,7 @@ import { Col, Row } from 'react-bootstrap'
 import { useSelector } from 'react-redux'
 import { Redirect } from 'react-router-dom'
 import { useParams } from 'react-router-dom'
+import BackButton from '../components/common/BackButton'
 import { getPhotoById } from '../store/reducers/photos'
 
 const SingleImagePage = () => {
@@ -15,6 +16,7 @@ const SingleImagePage = () => {
 
 	return (
 		<>
+			<BackButton />
 			<h3>Фото: {photo.title}</h3>
 			<h4>id: {photo.id}</h4>
 			<Row>
