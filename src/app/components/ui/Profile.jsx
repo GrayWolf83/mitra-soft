@@ -5,7 +5,7 @@ const Profile = () => {
 		<div className='mb-2 text-success text-center'>
 			<img
 				src='https://avatars.dicebear.com/api/avataaars/uufr4k.svg'
-				className='rounded-circle shadow mb-2'
+				className='rounded-circle border border-2 border-success mb-2'
 				width='100'
 				alt=''
 			/>
